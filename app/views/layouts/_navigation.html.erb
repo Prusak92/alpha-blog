@@ -24,10 +24,10 @@
           </div>
         </li>
         <li class="nav-item">
-          <%= link_to 'Log in', login_path, class: "nav-link" %>
+          <%= button_to 'Log in', login_path, class: "btn btn-info", :method => :get %>
         </li>
         <li class="nav-item">
-          <%= link_to 'Logout', logout_path, class:"nav-link", :method => :delete %> 
+          <%= button_to 'Logout', logout_path, class: "btn btn-info", :method => :delete %>
         </li>
       </ul>
       <form class="d-flex" role="search">
