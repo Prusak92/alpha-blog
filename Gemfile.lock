@@ -250,6 +250,7 @@ DEPENDENCIES
   jquery-rails
   puma (~> 5.0)
   rails (~> 7.0.3)
+  rexml
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)

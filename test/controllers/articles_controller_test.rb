@@ -1,5 +1,5 @@
 require "test_helper"
-
+=begin
 class ArticlesControllerTest < ActionDispatch::IntegrationTest
   setup do
     @article = articles(:one)
@@ -46,3 +46,4 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to articles_url
   end
 end
+=end
